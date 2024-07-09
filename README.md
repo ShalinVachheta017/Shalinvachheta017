@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **shalinvachheta2016@hotmail.com**
 
-- 📄 Know about my experiences [shalin.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
+- 📄 Know about my experiences [Shalin Vachheta_github.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
 
 - ⚡ Fun fact **I think I'm a Good Photographer**
 
