@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shalin Vachheta</h1>
-<h3 align="center">A passionate Artificial intelligence Enthusiasts</h3>
+<h3 align="center">A passionate Artificial intelligence Enthusiast</h3>
 <img align= "right"  alt = "Coding" width = "400" src = "https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" /> </p>
 
