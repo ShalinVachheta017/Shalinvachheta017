@@ -1,79 +1,24 @@
-# Hi there, I'm Shalin Vachheta 👋
+<h1 align="center">Hi 👋, I'm Shalin Vachheta</h1>
+<h3 align="center">A passionate Artificial intelligence Enthusiasts</h3>
+<img align= "right"  alt = "Coding" width = "400" src = "https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" /> </p>
 
-## About Me
+- 🔭 I’m currently working on **Sequence 2 sequence, image Denoising, Text Summarization**
 
-I am a passionate data scientist and machine learning enthusiast with a background in Mechatronics and Automobile Engineering. Currently, I am pursuing my M.Sc. in Mechatronics at the University of Siegen, Germany. My primary focus is on leveraging AI to solve complex engineering problems and drive innovation.
+- 🌱 I’m currently learning **More into deep learning towards NLP and computer vision**
 
-- 🔭 I’m currently working on [Event Prediction Model](https://github.com/ShalinVachheta017/ML_Project)
-- 🌱 I’m currently learning advanced deep learning techniques and their applications in predictive modeling.
-- 👯 I’m looking to collaborate on exciting AI and machine learning projects.
-- 📫 How to reach me: shalinvachheta2016@hotmail.com
+- 📫 How to reach me **shalinvachheta2016@hotmail.com**
 
-## Skills
+- 📄 Know about my experiences [https://shalinvachheta017.github.io/Resume_Shalin-Vachheta/](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta/)
 
-- **Programming Languages**: Python, C++, MATLAB
-- **Libraries and Frameworks**: Jupyter, NumPy, Pandas, Seaborn, Matplotlib, PyTorch, TensorFlow, Keras, OpenCV
-- **Design Software**: SolidWorks, Fusion 360
-- **Additional Tools**: Git
-- **Soft Skills**: Communication, Team Collaboration, Leadership, Project Management
+- ⚡ Fun fact **I think I'm a Good Photographer**
 
-## Projects
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/shalin vachheta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shalin vachheta" height="30" width="40" /></a>
+</p>
 
-### [Event Prediction Model](https://github.com/ShalinVachheta017/ML_Project)
-- **Description**: Conducted research on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTMs), and Encoder-Decoder architectures to predict temperature and sunspot activity. Modeled three time series-based event predictions using diverse datasets, including custom datasets for generating event prediction models. Performed data preprocessing and normalization to optimize the training process and enhance model performance. Currently fine-tuning the model to improve its predictive accuracy and robustness across different datasets.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
-### Image Denoising Project
-- **Description**: Applied Gaussian and salt-and-pepper noise to create noisy image datasets, including the Data Science 2018 dataset with over 30,000 images. Implemented traditional noise reduction techniques such as Wiener and BM3D filters to establish a performance baseline. Developed and trained deep learning models to effectively denoise images, achieving comparable accuracy to non-deep learning methods. Enhanced model performance through custom preprocessing steps, significantly improving Signal-to-Noise Ratio (SNR) and Peak Signal-to-Noise Ratio (PSNR) metrics.
-
-### Vehicle Sales Data Analysis
-- **Description**: Conducted detailed analysis of vehicle sales data, uncovering key trends and performance metrics. Processed and cleaned a dataset of 10,000+ vehicle sales records; created 20+ visualizations to effectively present findings. Identified a 30% sales peak in July and a 20% dip in December, and revealed that the North Region led sales with 38% of total transactions. Determined that SUVs were the most popular vehicle type, comprising 45% of sales.
-
-### IPL Data Analysis
-- **Description**: Explored and visualized Indian Premier League (IPL) data to uncover trends in team performance and player statistics. Processed and cleaned over 5,000 rows of IPL match and player data; provided actionable insights for team strategies. Identified that the top 3 teams won over 60% of their matches, with the leading team achieving a 68% win rate. Analyzed player performance, finding the top scorer averaged 55 runs per match and revealed that winning the toss increased match win probability by 15%.
-
-## Education
-
-### University of Siegen
-- **Degree**: M.Sc. in Mechatronics
-- **Duration**: October 2022 - Present
-- **Specialization**: Automation systems, machine learning, and AI applications
-
-### Gujarat Technological University
-- **Degree**: B.Tech. in Automobile Engineering
-- **Duration**: July 2017 - May 2021
-- **Specialization**: Engineering mathematics, basic programming, and teamwork through practical projects
-
-## Experience
-
-### Design Intern at Mechathon Private Limited
-- **Duration**: June 2021 - September 2021
-- **Description**: Engineered over 100 intricate engine parts using SolidWorks and Fusion 360, transforming 2D draft sheets into detailed 3D models and assemblies. Mastered industrial drafting, modeling, and Geometric Dimensioning & Tolerancing (GD&T) concepts.
-
-### Marketing and Design Member at BAJA SAEINDIA
-- **Duration**: March 2018 - May 2019
-- **Description**: Spearheaded the procurement, fabrication, and installation of ATV sub-systems, deepening expertise in automotive engineering and component integration. Secured 12th place among 80 teams in the SAE INDIA BAJA2019 Competition.
-
-## Certifications
-
-- Python for Machine Learning with NumPy, Pandas & Matplotlib (Udemy), 2023
-- Certified SOLIDWORKS Associate in Mechanical Design (Coursera), 2022
-- Machine Learning with Python: Zero to GBMs (Coursera), 2021
-
-## Languages
-
-- **English**: Fluent
-- **German**: Intermediate
-- **Hindi**: Native
-- **Gujarati**: Native
-
-## Hobbies
-
-- **Traveling**: Enthusiastic about exploring new cultures and destinations.
-- **Photography**: Passionate about mobile photography, capturing moments on the go.
-- **Music**: Avid listener of diverse music genres.
-- **Gaming**: Enjoys online gaming and the strategic thinking it involves.
-- **Volunteering**: Committed to community service and participating in charitable activities.
-
----
-
-Feel free to customize this template further to better reflect your unique style and any additional information you'd like to include.
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shalinvachheta017&show_icons=true&locale=en&layout=compact" alt="shalinvachheta017" /></p>
