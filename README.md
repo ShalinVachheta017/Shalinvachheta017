@@ -5,11 +5,11 @@
 
 - 🔭 I’m currently working on **Sequence 2 Sequence, Image Denoising, Text Summarization**
 
-- 🌱 I’m currently learning **More into deep learning towards NLP and computer vision**
+- 🌱 I’m currently learning **More into Deep Learning towards NLP and Computer Vision**
 
 - 📫 How to reach me **shalinvachheta2016@hotmail.com**
 
-- 📄 Know about my experiences [Shalin Vachheta_github.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
+- 📄 Know about my experiences [Shalin Vachheta.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
 
 - ⚡ Fun fact **I think I'm a Good Photographer**
 
