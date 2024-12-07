@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **More into Deep Learning towards NLP and Computer Vision**
 
-- 📫 How to reach me **shalinvachheta2016@hotmail.com**
+- 📫 How to reach me **shalin2010vachheta@gmail.com**
 
 - 📄 Know about my experiences [Shalin Vachheta.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
 
