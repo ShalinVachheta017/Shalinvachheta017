@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Transformer, LLM, Multimodal, Stable diffusions, Gen AI**
 
-- 🌱 I’m currently learning **More into Deep Learning towards NLP and LLM**
+- 🌱 I’m currently learning **More into Deep Learning towards LLM and Gen AI**
 
 - 📫 How to reach me **shalin2010vachheta@gmail.com**
 
