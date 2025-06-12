@@ -11,7 +11,7 @@
 
 - 📄 Know about my experiences [Shalin Vachheta.io](https://shalinvachheta017.github.io/Resume_Shalin-Vachheta_io/)
 
-- ⚡ Fun fact **I think I'm a Good Photographer**[cheees]📸(https://www.eyeem.com/u/24233596)
+- ⚡ Fun fact [I think I'm a Good Photographer](https://www.eyeem.com/u/24233596)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
