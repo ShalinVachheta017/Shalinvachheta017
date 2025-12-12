@@ -3,9 +3,9 @@
 <img align= "right"  alt = "Coding" width = "400" src = "https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" /> </p>
 
-- 🔭 I’m currently working on **Transformer, LLM, Multimodal, Stable diffusions, Gen AI**
+- 🔭 I’m currently working on **Transformer, LLM, Gen AI, MLOps Pipeline **
 
-- 🌱 I’m currently learning **More into Deep Learning towards LLM and Gen AI**
+- 🌱 I’m currently learning **More into Deep Learning towards LLM, Gen AI, Scalable MLOps Pipeline **
 
 - 📫 How to reach me **shalin2010vachheta@gmail.com**
 
