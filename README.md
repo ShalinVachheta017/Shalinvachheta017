@@ -1,13 +1,17 @@
 <h1 align="center">Hi 👋, I'm Shalin Vachheta</h1>
-<h3 align="center">A Passionate Artificial Intelligence Enthusiast</h3>
-<img align= "right"  alt = "Coding" width = "400" src = "https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" /> </p>
+<h3 align="center">The Scaling Guy</h3>
 
-- 🔭 I’m currently working on **Transformer, LLM, Gen AI, MLOps Pipeline **
+<img align="right" alt="Coding" width="400" src="https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
 
-- 🌱 I’m currently learning **More into Deep Learning towards LLM, Gen AI, Scalable MLOps Pipeline **
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" />
+</p>
 
-- 📫 How to reach me **shalin2010vachheta@gmail.com**
+- 🔭 I have worked on **end‑to‑end ML pipelines, deep learning applications, Transformers, LLMs, GenAI, and MLOps pipelines**.
+
+- 🌱 I’m currently focusing on **scalable MLOps pipelines, Linux, networking, AWS, Docker, Kubernetes, Terraform, Prometheus, Grafana, distributed systems for ML, and ML/AI platforms**.
+
+- 📫 How to reach me: **shalin2010vachheta@gmail.com**
 
 - 📄 Know about my experiences [Shalin Vachheta.io](https://shalinvachheta017.github.io/ShalinV_Portfolio/)
 
