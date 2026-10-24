@@ -1,28 +1,117 @@
-<h1 align="center">Hi 👋, I'm Shalin Vachheta</h1>
-<h3 align="center">The Scaling Guy</h3>
+# Shalin Vachheta
 
-<img align="right" alt="Coding" width="400" src="https://cdn-images-1.medium.com/v2/resize:fit:600/0*HQ7WKolP9iEr0z6x.gif">
+### Machine Learning Engineer | MLOps & Applied AI
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=shalinvachheta017&label=Profile%20views&color=0e75b6&style=flat" alt="shalinvachheta017" />
-</p>
+**Data Science · Deep Learning · Generative AI · ML Systems**
 
-- 🔭 I have worked on **end‑to‑end ML pipelines, deep learning applications, Transformers, LLMs, GenAI, and MLOps pipelines**.
+M.Sc. Mechatronics (2026) · University of Siegen, Germany
 
-- 🌱 I’m currently focusing on **scalable MLOps pipelines, Linux, networking, AWS, Docker, Kubernetes, Terraform, Prometheus, Grafana, distributed systems for ML, and ML/AI platforms**.
+I build **end-to-end machine learning and AI systems**, from data preparation and model development to evaluation, deployment, and monitoring. My work spans wearable time-series modeling, cloud-based MLOps, and multilingual document intelligence.
 
-- 📫 How to reach me: **shalin2010vachheta@gmail.com**
+[Portfolio](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
 
-- 📄 Know about my experiences [Shalin Vachheta.io](https://shalinvachheta017.github.io/ShalinV_Portfolio/)
+---
 
-- ⚡ Fun fact [I think I'm a Good Photographer]([https://www.eyeem.com/u/sln2k16/photos](https://www.eyeem.com/u/sln2k16/photos))
+## What I Bring to ML Teams
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/shalin vachheta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shalin vachheta" height="30" width="40" /></a>
-</p>
+**Machine Learning & Deep Learning**
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Classical ML, sequence modeling, neural networks, transformer fine-tuning, model evaluation, and generalization analysis.
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shalinvachheta017&show_icons=true&locale=en&layout=compact" alt="shalinvachheta017" /></p>
+**ML Engineering & MLOps**
+
+Reproducible training pipelines, artifact versioning, REST APIs, Docker, CI/CD, cloud deployment, monitoring, and controlled model updates.
+
+**Generative AI & NLP**
+
+Multilingual RAG, document processing, OCR, dense and hybrid retrieval, vector databases, reranking, and local LLM inference.
+
+---
+
+## Featured Engineering Projects
+
+### 01. [Wearable Human Activity Recognition — MLOps Pipeline](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)
+
+**Deep Learning · Time Series · MLOps · Model Monitoring**
+
+Master's thesis project developing an offline-first MLOps pipeline for wearable accelerometer and gyroscope data using a 1D-CNN–BiLSTM architecture.
+
+- **Research:** 11 activity classes and 93.61% mean five-fold within-distribution accuracy, with separate evaluation revealing substantial generalization limitations for unseen users.
+- **Engineering:** Reproducible inference, artifact versioning, drift monitoring, automated checks, and human-approved retraining.
+- **Stack:** TensorFlow, Python, MLflow, DVC, FastAPI, Docker, pytest.
+
+*Research prototype for activity recognition, not clinical diagnosis.*
+
+### 02. [Vehicle Insurance — End-to-End ML & MLOps](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline)
+
+**Machine Learning · Cloud Infrastructure · CI/CD · AWS**
+
+An end-to-end ML pipeline for insurance response prediction, built around approximately 762,000 records.
+
+- **Pipeline:** Ingestion, validation, transformation, training, model evaluation, and artifact management.
+- **Engineering:** Containerized inference API, GitHub Actions workflows, and AWS deployment infrastructure.
+- **Stack:** Python, scikit-learn, MongoDB, FastAPI, Docker, AWS S3/ECR/EC2.
+
+### 03. [Multilingual Tender Intelligence — RAG](https://github.com/ShalinVachheta017/multilingual-tender-rag)
+
+**Generative AI · NLP · Retrieval-Augmented Generation**
+
+A local multilingual RAG system for searching and answering questions over German procurement documents.
+
+- **Document intelligence:** PDF extraction, OCR, metadata processing, multilingual embeddings, and retrieval.
+- **Architecture:** Vector search, hybrid retrieval, optional reranking, and local LLM inference.
+- **Stack:** Python, Qdrant, Jina embeddings, Ollama, FastAPI, Streamlit.
+
+---
+
+## More Machine Learning Projects
+
+| Project | Technical Highlights |
+|---|---|
+| [Seq2Seq Event Prediction](https://github.com/ShalinVachheta017/seq2seq-event-prediction) | PyTorch, BiLSTM encoder-decoder, sequence prediction, cross-validation, and hyperparameter search |
+| [PEGASUS Dialogue Summarization](https://github.com/ShalinVachheta017/pegasus-dialogue-summarization) | Hugging Face, Transformers, SAMSum, ROUGE evaluation, FastAPI, and Docker |
+| [Student Performance Prediction](https://github.com/ShalinVachheta017/Student-Performance-Prediction) | Data Science, scikit-learn, XGBoost, feature engineering, regression, Flask, and Docker |
+
+---
+
+## Explore My Code
+
+For a closer look at how I implement machine learning systems:
+
+- [MLOps pipeline orchestration](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline/blob/main/src/pipeline/production_pipeline.py) — wearable activity recognition, monitoring, and governance.
+- [ML training pipeline](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline/blob/main/src/pipline/training_pipeline.py) — modular training and evaluation workflow.
+- [RAG retrieval implementation](https://github.com/ShalinVachheta017/multilingual-tender-rag/blob/main/src/core/search.py) — retrieval and caching logic.
+
+---
+
+## Technical Skills
+
+| Area | Technologies |
+|---|---|
+| **Programming & Data Science** | Python, pandas, NumPy, scikit-learn, XGBoost |
+| **Deep Learning** | PyTorch, TensorFlow, CNN, LSTM, Transformers |
+| **GenAI & NLP** | Hugging Face, RAG, Qdrant, Jina embeddings, Ollama |
+| **MLOps & Engineering** | MLflow, DVC, FastAPI, Flask, Docker, pytest, GitHub Actions |
+| **Cloud Infrastructure** | AWS S3, ECR, EC2 |
+
+**Currently developing:** Kubernetes, Prometheus, Grafana, Terraform, and ML Platform Engineering.
+
+---
+
+## Background
+
+**M.Sc. Mechatronics — University of Siegen, Germany (2026)**
+
+Master's research focused on reproducible ML pipelines for wearable sensor data, including model generalization, monitoring, and retraining governance.
+
+**Student Research Assistant — University of Siegen**
+
+Worked on deep learning for sequential event prediction using encoder-decoder architectures, experimentation, and model evaluation.
+
+---
+
+## Let's Connect
+
+I'm interested in full-time opportunities in **Machine Learning Engineering, MLOps, Data Science, and Applied AI**, primarily in Germany.
+
+[Portfolio Website](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
