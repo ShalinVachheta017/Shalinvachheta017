@@ -8,9 +8,9 @@
 
 ## About me
 
-I completed my master's in Mechatronics at the University of Siegen. Over time, I became interested in what happens after a machine learning model is trained: how it handles new data, how its results are checked, and how to make it useful in a real application.
+**I completed my master's in Mechatronics at the University of Siegen. Over time, I became interested in what happens after a machine learning model is trained: how it handles new data, how its results are checked, and how to make it useful in a real application.
 
-My projects range from smartwatch activity recognition and document search to event prediction and ML deployment. Some worked well; others showed me how difficult real-world data can be. I enjoy figuring out what went wrong and building a better version.
+My projects range from smartwatch activity recognition and document search to event prediction and ML deployment. Some worked well; others showed me how difficult real-world data can be. I enjoy figuring out what went wrong and building a better version.**
 ---
 
 ## Selected Work
