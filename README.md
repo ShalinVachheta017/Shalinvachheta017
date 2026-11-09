@@ -1,23 +1,40 @@
 # Shalin Vachheta
 
 **Machine Learning | MLOps | Applied AI**  
-M.Sc. Mechatronics · University of Siegen, Germany
+M.Sc. Mechatronics, University of Siegen, Germany
 
-I build machine learning models and the software around them—from experiments and careful evaluation to APIs, containers, and deployment workflows. I’m especially interested in how systems perform when they encounter unfamiliar data and real engineering constraints.
+I build machine learning models and the software that makes them usable. My work connects deep learning research with reliable evaluation, APIs, monitoring, and deployment. I care about understanding why a system works, where it struggles, and what it would take to improve it.
 
-### Selected work
+**Open to full-time junior roles in Machine Learning Engineering, MLOps, and Applied AI.** Based in Germany and open to relocation.
 
-**[Wearable activity recognition — MLOps](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)**  
-For my master's thesis, I built an offline-first pipeline to recognize 11 activities using smartwatch sensors. It includes monitoring and human-reviewed retraining. **93.61% accuracy** in within-distribution cross-validation fell to **44.42% mean accuracy** in leave-one-user-out testing—a useful lesson in generalization. [Case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/thesis.html).
+[Portfolio (English)](https://shalinvachheta017.github.io/ShalinV_Portfolio/) | [Portfolio (Deutsch)](https://shalinvachheta017.github.io/ShalinV_Portfolio/de/) | [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) | [Email](mailto:shalin2010vachheta@gmail.com)
 
-**[Privacy-first multilingual RAG](https://github.com/ShalinVachheta017/multilingual-tender-rag)**  
-Built a document-search prototype for **6,126 tender documents**, using Qdrant, Jina embeddings, and Ollama. The focus is multilingual retrieval, source evidence, and keeping document processing under the operator's control. [Case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/rag.html).
+## Selected engineering work
 
-**[Vehicle insurance — MLOps and AWS](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline)**  
-Connected an ML training pipeline with FastAPI, Docker, GitHub Actions, and AWS deployment components. Model performance figures are withheld pending leakage-free reevaluation. [Case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/insurance.html).
+### 1. Wearable activity recognition: beyond a single accuracy score
 
-**Core tools:** Python · PyTorch / TensorFlow · scikit-learn · FastAPI · Docker · MLflow · DVC · AWS · Qdrant
+**Problem:** Can a model trained on smartwatch sensor data recognize activities from people it has never seen?
 
-**Open to full-time junior Machine Learning Engineer, MLOps Engineer, and Applied AI roles.** Based in Germany; open to relocation.
+For my master's thesis, I built an offline-first MLOps pipeline for **11 activities**, including data checks, inference, risk monitoring, and human-reviewed model updates. The model reached **93.61% accuracy** in within-distribution cross-validation, but only **44.42% mean accuracy** when evaluated with leave-one-user-out testing. The gap showed why generalization and monitoring matter as much as model training. This is a research prototype, not a clinical system.
 
-[Portfolio (English)](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [Portfolio (Deutsch)](https://shalinvachheta017.github.io/ShalinV_Portfolio/de/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
+[Source code](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline) | [Architecture and evaluation](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/thesis.html)
+
+### 2. Privacy-first RAG: finding evidence in long documents
+
+**Problem:** How can people search technical documents in English or German while retaining control over document processing?
+
+I developed a multilingual RAG prototype working with **6,126 tender documents**, using Jina embeddings, Qdrant, and Ollama. The focus is retrieving relevant passages, supporting answers with sources, and avoiding reliance on external language-model APIs in the current setup. It also taught me how difficult cross-language retrieval and exact document lookups can be.
+
+[Source code](https://github.com/ShalinVachheta017/multilingual-tender-rag) | [Architecture and design choices](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/rag.html)
+
+### 3. Vehicle insurance MLOps: moving beyond the notebook
+
+**Problem:** How do training, model artifacts, an inference service, and deployment fit together?
+
+I developed a modular ML pipeline with **FastAPI, Docker, GitHub Actions, and AWS deployment components**. This project helped me connect data processing and modeling with application and infrastructure decisions. Previous model performance figures are withheld until a leakage-free reevaluation is completed.
+
+[Source code](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline) | [Pipeline and cloud workflow](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/insurance.html)
+
+**Technical toolkit:** Python, PyTorch, TensorFlow, scikit-learn, FastAPI, Docker, MLflow, DVC, Qdrant, AWS
+
+For the full project stories, code references, architecture diagrams, and limitations, visit my [portfolio](https://shalinvachheta017.github.io/ShalinV_Portfolio/).
