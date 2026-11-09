@@ -1,108 +1,76 @@
 # Shalin Vachheta
 
-### Machine Learning Engineer | MLOps | Applied AI
+**Machine Learning · MLOps · Applied AI**  
+M.Sc. Mechatronics · University of Siegen, Germany
 
-**M.Sc. Mechatronics · University of Siegen, Germany**
-
-[Portfolio](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
+[Portfolio (English)](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [Portfolio (Deutsch)](https://shalinvachheta017.github.io/ShalinV_Portfolio/de/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
 
 ## About me
 
-**I completed my master's in Mechatronics at the University of Siegen. Over time, I became interested in what happens after a machine learning model is trained: how it handles new data, how its results are checked, and how to make it useful in a real application.
+I build machine learning models and the software around them. During my master's in Mechatronics at the University of Siegen, I became particularly interested in what happens after a model is trained: how it behaves with new data, whether its evaluation is trustworthy, and how it can become part of a working application.
 
-My projects range from smartwatch activity recognition and document search to event prediction and ML deployment. Some worked well; others showed me how difficult real-world data can be. I enjoy figuring out what went wrong and building a better version.**
----
+My projects cover wearable-sensor activity recognition, document search, event prediction, text summarization, and ML deployment. Some experiments worked well; others revealed difficult problems. I value understanding those differences and making the next engineering decision based on evidence.
 
-## Selected Work
+## Selected projects
 
-These projects show the areas I have worked on most. Start with the short explanation in each README, then continue to the code, results and limitations.
+### 01 · [Wearable Activity Recognition — MLOps](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)
 
-### 01 · [Wearable Human Activity Recognition — MLOps](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)
+For my master's thesis, I developed an offline-first pipeline that classifies **11 activities** from smartwatch accelerometer and gyroscope data. It also monitors prediction confidence, uncertainty, unusual activity transitions, and sensor-data drift.
 
-**The challenge:** How can we monitor an ML system when new sensor data arrives without labels?
+The key finding was the difference between **93.61% accuracy in within-distribution five-fold cross-validation** and **44.42% mean accuracy in leave-one-user-out evaluation**. These are different test settings, and the drop made generalization and human-reviewed monitoring central to the project.
 
-For my master's thesis, I developed an offline-first MLOps pipeline using wearable accelerometer and gyroscope signals to recognize 11 activities.
+*Python · TensorFlow · 1D-CNN–BiLSTM · FastAPI · Docker · MLflow · DVC*
 
-One of the most important findings came from evaluation. The model achieved **93.61% accuracy in within-distribution five-fold cross-validation**, but mean accuracy dropped to **44.42% when evaluating unseen users using leave-one-user-out validation**.
+[Interactive case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/thesis.html) · [Architecture and monitoring code](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)
 
-That difference changed how I viewed model performance. I built monitoring and review mechanisms around prediction confidence, uncertainty, transitions, sensor-data drift, and unusual prediction patterns.
+### 02 · [Multilingual Tender RAG — Privacy-first Document Search](https://github.com/ShalinVachheta017/multilingual-tender-rag)
 
-The project taught me that training a model successfully and operating it reliably are two different problems.
+I built a privacy-first document assistant for searching German tender documents and answering questions in English or German. The documented collection contains **6,126 documents**. Working with PDFs, metadata, multilingual retrieval, and source-aware answers taught me that finding reliable evidence is often harder than generating fluent text.
 
-**Technologies:** Python, TensorFlow, 1D-CNN–BiLSTM, MLflow, DVC, FastAPI, Docker, pytest.
+The current prototype uses locally operated Qdrant and Ollama components to avoid relying on external language-model APIs for document answers. This is a **design choice for data control**, not a claim of completed cloud scaling or production security certification.
 
-**[Explore the project](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)** · **[Inspect monitoring tests](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline/blob/main/tests/test_stage6_monitoring.py)**
+*Python · Qdrant · Jina v3 · Ollama · Streamlit · FastAPI*
 
-### 02 · [Vehicle Insurance — ML Pipeline & AWS MLOps](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline)
+[Interactive case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/rag.html) · [Retrieval implementation](https://github.com/ShalinVachheta017/multilingual-tender-rag/blob/main/src/core/search.py)
 
-**The challenge:** How do you move an ML application from running locally to a repeatable cloud deployment workflow?
+### 03 · [Vehicle Insurance — ML Pipeline & AWS](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline)
 
-I built a modular machine learning pipeline for insurance response prediction, covering data ingestion, validation, transformation, training, evaluation, and model artifacts.
+I connected data ingestion, validation, transformation, model training, and inference with a FastAPI application, Docker packaging, GitHub Actions, and AWS deployment components. It helped me understand how model artifacts, application code, and infrastructure fit together.
 
-What interested me most was connecting the application to infrastructure outside my laptop. Using Docker, GitHub Actions, AWS S3, ECR, and EC2 helped me understand how application packaging, artifact management, and deployment fit together.
+Earlier model performance numbers are **withheld pending leakage-free reevaluation**. The engineering workflow is documented without presenting it as a proven production insurance service.
 
-This project strengthened my interest in ML engineering and cloud infrastructure. It also reinforced the importance of evaluating models correctly before trusting their performance numbers.
+*Python · scikit-learn · FastAPI · Docker · GitHub Actions · AWS S3/ECR/EC2*
 
-**Technologies:** Python, scikit-learn, MongoDB, FastAPI, Docker, GitHub Actions, AWS S3/ECR/EC2.
+[Interactive case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/insurance.html) · [AWS workflow](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline/blob/main/.github/workflows/aws.yaml)
 
-**[Explore the project](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline)** · **[Inspect the deployment workflow](https://github.com/ShalinVachheta017/vehicle-insurance-mlops-pipeline/blob/main/.github/workflows/aws.yaml)**
+### 04 · [Seq2Seq Event Prediction](https://github.com/ShalinVachheta017/seq2seq-event-prediction)
 
-### 03 · [Multilingual Tender Intelligence — RAG](https://github.com/ShalinVachheta017/multilingual-tender-rag)
+As a student research assistant, I worked on predicting future event sequences from simulation data using a BiLSTM encoder–decoder. The work involved experiments, model tuning, and careful evaluation of sequential data.
 
-**The challenge:** How can an AI assistant answer questions using a specific collection of documents rather than relying only on a language model's general knowledge?
+*Python · BiLSTM · Seq2Seq · Optuna*
 
-My interest in conversational AI led me to build a local multilingual RAG prototype for German tender documents.
+[Research case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/seq2seq.html)
 
-Working with a documented collection of **6,126 documents** introduced practical challenges in PDF processing, OCR, embeddings, vector search, multilingual retrieval, and source-aware answer generation.
+### 05 · [PEGASUS Dialogue Summarization](https://github.com/ShalinVachheta017/pegasus-dialogue-summarization)
 
-I learned that finding the right information can be harder than generating the final answer. Early evaluations showed weaknesses in some retrieval scenarios, especially exact-ID lookups and cross-language searches, and gave me a clearer direction for improving the system.
+I adapted a PEGASUS model for summarizing conversations from the SAMSum dataset, with modular training, evaluation, and a FastAPI prediction route. The challenge is preserving meaning while shortening a dialogue.
 
-**Technologies:** Python, Jina Embeddings v3, Qdrant, BM25, Ollama, FastAPI, Streamlit.
+*Transformers · Hugging Face · PEGASUS · FastAPI*
 
-**[Explore the project](https://github.com/ShalinVachheta017/multilingual-tender-rag)** · **[Inspect retrieval code](https://github.com/ShalinVachheta017/multilingual-tender-rag/blob/main/src/core/search.py)**
+[Project case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/pegasus.html)
 
----
+## Other hands-on work
 
-## How I Approach Engineering Problems
+- [Kubernetes Mini Project](https://github.com/ShalinVachheta017/k8s_pra_proj_mlops-E17) — Tested pod self-healing and Service load balancing with Docker, Flask, and Minikube. [See the case study](https://shalinvachheta017.github.io/ShalinV_Portfolio/cases/kubernetes.html).
+- [Student Performance Prediction](https://github.com/ShalinVachheta017/Student-Performance-Prediction) — Regression modeling, feature engineering, and a small web application.
 
-I'm still learning, but a few principles have become important in my work:
+## Engineering tools
 
-- **Understand the data first.** A good model cannot compensate for incorrect assumptions about the dataset.
-- **Evaluate beyond a single score.** Baselines, data splits, generalization, and failure cases matter.
-- **Make experiments reproducible.** Configuration, versioning, and documentation make it easier to improve a system.
-- **Think beyond the notebook.** APIs, containers, automation, and monitoring are part of making ML useful.
-- **Be willing to revisit decisions.** When something doesn't work as expected, understanding why is part of the engineering process.
-
----
-
-## Other Projects
-
-| Project | What I explored |
-|---|---|
-| [Seq2Seq Event Prediction](https://github.com/ShalinVachheta017/seq2seq-event-prediction) | Event-sequence modeling, BiLSTM encoder-decoder, cross-validation and tuning |
-| [PEGASUS Dialogue Summarization](https://github.com/ShalinVachheta017/pegasus-dialogue-summarization) | Transformer fine-tuning, SAMSum, NLP evaluation, FastAPI |
-| [Student Performance Prediction](https://github.com/ShalinVachheta017/Student-Performance-Prediction) | Regression, XGBoost, feature engineering, Flask, Docker |
+**ML and data:** Python, pandas, NumPy, scikit-learn, PyTorch, TensorFlow, XGBoost  
+**Applications and MLOps:** FastAPI, Flask, Docker, pytest, MLflow, DVC, GitHub Actions  
+**Document AI:** Qdrant, Jina, Ollama, Hugging Face  
+**Cloud and infrastructure:** AWS S3, ECR, EC2; hands-on Kubernetes/Minikube
 
 ---
 
-## Tools I Work With
-
-| Area | Technologies |
-|---|---|
-| **Machine Learning & Data** | Python, pandas, NumPy, scikit-learn, XGBoost |
-| **Deep Learning** | PyTorch, TensorFlow, CNNs, LSTMs, Transformers |
-| **GenAI & NLP** | Hugging Face, RAG, Qdrant, Jina, Ollama |
-| **MLOps & Software** | MLflow, DVC, Docker, FastAPI, Flask, pytest, GitHub Actions |
-| **Cloud** | AWS S3, ECR, EC2 |
-
-**Still learning:** more about operating ML systems at scale, especially observability, infrastructure and reliable cloud workflows.
-
----
-
-## Beyond the Projects
-
-I completed my M.Sc. in Mechatronics at the University of Siegen in 2026 and worked as a Student Research Assistant on deep learning for sequential event prediction.
-
-I enjoy exploring problems where machine learning, software engineering, and real-world constraints meet. I'm particularly interested in opportunities to contribute to ML engineering, MLOps, Data Science, and applied AI systems.
-
-[**View my portfolio**](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [**Connect on LinkedIn**](https://www.linkedin.com/in/shalin-vachheta/) · [**Get in touch**](mailto:shalin2010vachheta@gmail.com)
+You can explore the **[English](https://shalinvachheta017.github.io/ShalinV_Portfolio/)** or **[German](https://shalinvachheta017.github.io/ShalinV_Portfolio/de/)** portfolio for project architecture, technical decisions, evaluation evidence, and source-code links.
