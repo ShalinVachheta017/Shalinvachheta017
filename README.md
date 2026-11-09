@@ -6,21 +6,16 @@
 
 [Portfolio](https://shalinvachheta017.github.io/ShalinV_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/shalin-vachheta/) · [Email](mailto:shalin2010vachheta@gmail.com)
 
-## A little about me
+## About me
 
-During my bachelor's in Automobile Engineering, I came across machine learning around the COVID period. I remember wondering how a machine could learn patterns from data instead of someone having to write every single rule.
+I completed my M.Sc. in Mechatronics at the University of Siegen. I enjoy building machine learning systems that do more than produce a number: they need good data, honest testing, and software that can be used outside a notebook.
 
-That curiosity led me to study Mechatronics in Germany and explore Python, deep learning, time-series modeling, and the engineering behind machine learning applications.
-
-Over time, I became interested in more than training models. I wanted to understand how to evaluate them properly, make them usable outside notebooks, and keep track of their behavior when real-world data is different from what they were trained on.
-
-Today, I build and explore systems across **Machine Learning, MLOps, Deep Learning, and Generative AI**.
-
+My work includes activity recognition from smartwatch data, document search in English and German, time-series event prediction, and cloud-based ML applications. I like understanding why a model works, where it fails, and how to improve the full system.
 ---
 
 ## Selected Work
 
-These are three projects that shaped how I approach machine learning engineering.
+These projects show the areas I have worked on most. Start with the short explanation in each README, then continue to the code, results and limitations.
 
 ### 01 · [Wearable Human Activity Recognition — MLOps](https://github.com/ShalinVachheta017/wearable-har-mlops-pipeline)
 
@@ -84,7 +79,7 @@ I'm still learning, but a few principles have become important in my work:
 
 | Project | What I explored |
 |---|---|
-| [Seq2Seq Event Prediction](https://github.com/ShalinVachheta017/seq2seq-event-prediction) | PyTorch, BiLSTM encoder-decoder, temporal event modeling, cross-validation, hyperparameter search |
+| [Seq2Seq Event Prediction](https://github.com/ShalinVachheta017/seq2seq-event-prediction) | Event-sequence modeling, BiLSTM encoder-decoder, cross-validation and tuning |
 | [PEGASUS Dialogue Summarization](https://github.com/ShalinVachheta017/pegasus-dialogue-summarization) | Transformer fine-tuning, SAMSum, NLP evaluation, FastAPI |
 | [Student Performance Prediction](https://github.com/ShalinVachheta017/Student-Performance-Prediction) | Regression, XGBoost, feature engineering, Flask, Docker |
 
@@ -100,7 +95,7 @@ I'm still learning, but a few principles have become important in my work:
 | **MLOps & Software** | MLflow, DVC, Docker, FastAPI, Flask, pytest, GitHub Actions |
 | **Cloud** | AWS S3, ECR, EC2 |
 
-**What I'm learning next:** Kubernetes, Prometheus, Grafana, and the infrastructure needed to operate ML systems at a larger scale.
+**Still learning:** more about operating ML systems at scale, especially observability, infrastructure and reliable cloud workflows.
 
 ---
 
