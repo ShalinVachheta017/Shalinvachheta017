@@ -8,9 +8,9 @@
 
 ## About me
 
-I completed my M.Sc. in Mechatronics at the University of Siegen. I enjoy building machine learning systems that do more than produce a number: they need good data, honest testing, and software that can be used outside a notebook.
+I completed my master's in Mechatronics at the University of Siegen. Over time, I became interested in what happens after a machine learning model is trained: how it handles new data, how its results are checked, and how to make it useful in a real application.
 
-My work includes activity recognition from smartwatch data, document search in English and German, time-series event prediction, and cloud-based ML applications. I like understanding why a model works, where it fails, and how to improve the full system.
+My projects range from smartwatch activity recognition and document search to event prediction and ML deployment. Some worked well; others showed me how difficult real-world data can be. I enjoy figuring out what went wrong and building a better version.
 ---
 
 ## Selected Work
